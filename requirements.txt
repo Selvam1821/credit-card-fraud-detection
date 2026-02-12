@@ -1,0 +1,7 @@
+pip install flask flask-mail scikit-learn pandas numpy joblib sqlite3
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
+

@@ -1,0 +1,100 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+    color: #333;
+}
+
+/* Container Styling */
+.container {
+    background: white;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Headings */
+h1 {
+    color: #e63946;
+    font-size: 2em;
+}
+
+h2 {
+    color: #1d3557;
+}
+
+/* Input Fields & Button */
+input, button {
+    padding: 12px;
+    margin: 10px;
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #1d3557;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #457b9d;
+}
+
+/* Fraud Detection Image */
+img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Fraud Detection Message */
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Fraud Alert Colors */
+.alert-danger {
+    color: #d90429;
+    background-color: #ffccd5;
+    border: 1px solid #d90429;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.alert-success {
+    color: #1b5e20;
+    background-color: #c8e6c9;
+    border: 1px solid #1b5e20;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Fraud Chart */
+canvas {
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    input, button {
+        width: 95%;
+    }
+}
